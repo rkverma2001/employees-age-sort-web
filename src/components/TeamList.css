@@ -1,0 +1,62 @@
+.team-container {
+  width: 45%;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.team-card {
+  background-image: linear-gradient(
+    -20deg,
+    #ddd6f3 0%,
+    #faaca8 100%,
+    #faaca8 100%
+  );
+  color: #fff;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 8px;
+  box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s ease;
+}
+
+.team-card:hover {
+  box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.1);
+}
+
+.team-card p {
+  margin: 0;
+}
+
+.remove-button {
+  background-image: linear-gradient(to top, #5f72bd 0%, #9b23ea 100%);
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 5px 10px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.remove-button:hover {
+  background: linear-gradient(to bottom right, #9b23ea, #fffcdc);
+}
+
+.average-age {
+  margin-top: 10px;
+}
+
+.sort-button {
+  background: linear-gradient(to top, #5f72bd 0%, #9b23ea 100%);
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 5px 10px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+  margin-bottom: 10px;
+}
+
+.sort-button:hover {
+  background: linear-gradient(to bottom right, #9b23ea, #fffcdc);
+}
